@@ -1,0 +1,33 @@
+{
+  "name": "ksa-error-translator",
+  "displayName": "KSA Error Translator — French AI Error Assistant",
+  "version": "1.0.0",
+  "description": "French AI assistant that explains development errors in simple French for beginners, vibe coders and AI Product Builders.",
+  "logo": "assets/logo.svg",
+  "author": {
+    "name": "Stéphane Kevin Assamoi",
+    "role": "AI Product Builder"
+  },
+  "tagline": "Comprendre les erreurs. Construire sans stress.",
+  "keywords": [
+    "error-translator",
+    "french-assistant",
+    "vibe-coding",
+    "debugging",
+    "pedagogical",
+    "typescript",
+    "react",
+    "nextjs",
+    "security"
+  ],
+  "license": "MIT",
+  "skills": [
+    "skills/explain-errors"
+  ],
+  "agents": [
+    "agents/french-error-expert.md"
+  ],
+  "rules": [
+    "rules/french-error-explanations.md"
+  ]
+}

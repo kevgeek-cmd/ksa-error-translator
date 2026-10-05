@@ -1,0 +1,22 @@
+{
+  "plugin_name": "KSA Error Translator",
+  "display_name": "KSA Error Translator — French AI Error Assistant",
+  "author_name": "Stéphane Kevin Assamoi",
+  "author_role": "AI Product Builder",
+  "signature": "Créé par Stéphane Kevin Assamoi\nAI Product Builder",
+  "tagline": "Comprendre les erreurs. Construire sans stress.",
+  "language": "fr",
+  "explanation_mode": "simple",
+  "theme_color": "#6366F1",
+  "available_modes": [
+    "simple",
+    "standard",
+    "technique"
+  ],
+  "options": {
+    "show_signature_on_explanations": true,
+    "group_cascading_errors": true,
+    "auto_detect_tech_stack": true,
+    "require_confirmation_for_fixes": true
+  }
+}

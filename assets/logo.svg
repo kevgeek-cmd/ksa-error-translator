@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="50%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="bubbleGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#F3F4F6" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#1E1B4B" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background Rounded Canvas -->
+  <rect width="128" height="128" rx="28" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle Glow Accent -->
+  <circle cx="96" cy="32" r="28" fill="#C4B5FD" opacity="0.25"/>
+
+  <!-- Main Speech / Shield Element with Shadow -->
+  <g filter="url(#dropShadow)">
+    <!-- Terminal / Code Bubble -->
+    <rect x="22" y="24" width="84" height="66" rx="14" fill="url(#bubbleGrad)"/>
+    <polygon points="40,90 56,90 32,104" fill="#F3F4F6"/>
+  </g>
+
+  <!-- Terminal Top Bar Dots -->
+  <circle cx="34" cy="36" r="3" fill="#EF4444"/>
+  <circle cx="43" cy="36" r="3" fill="#F59E0B"/>
+  <circle cx="52" cy="36" r="3" fill="#10B981"/>
+
+  <!-- Code / Translation Prompt Icons: Terminal Prompt '>' + Heart/Check Translation -->
+  <!-- Terminal Prompt '>' in Indigo -->
+  <path d="M34 52 L44 60 L34 68" stroke="#4F46E5" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Subtle Error Dash (Red) converting to Sparkle / Lightbulb (Amber) -->
+  <line x1="50" y1="67" x2="62" y2="67" stroke="#9CA3AF" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Mentor Spark / Magic Star on Right (represents translation & clarity) -->
+  <path d="M80 44 C80 50 84 54 90 54 C84 54 80 58 80 64 C80 58 76 54 70 54 C76 54 80 50 80 44 Z" fill="#6366F1"/>
+  <circle cx="88" cy="42" r="2" fill="#F59E0B"/>
+  
+  <!-- Translation Wave Line -->
+  <path d="M52 56 Q60 50 68 56" stroke="#6366F1" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  
+  <!-- Tagline Mini Badge "KSA" -->
+  <rect x="68" y="70" width="30" height="14" rx="4" fill="#4F46E5"/>
+  <text x="83" y="80.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">KSA</text>
+</svg>
